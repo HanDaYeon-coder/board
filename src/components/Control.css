@@ -1,0 +1,10 @@
+.grid3{
+    display: grid;
+    grid-template-columns: 28fr 1fr 1fr 1fr;
+}
+.first, .second{
+    padding-right: 10px;
+}
+.third{
+    padding-left: 10px;
+}

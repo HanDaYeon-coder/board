@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+  list-style: none;
+  margin:20px;
+  font-size: 20px;
+}
+a{
+  text-decoration: none;
+  color:rgb(233, 126, 176);
+}
+a:hover { text-decoration: underline; }
+.left{
+  border-right: 2px solid gray;
+  padding-right: 30px;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 200px 1fr;
+}
+
+.grid1{
+  display: grid;
+  grid-template-columns: 200px 10fr 0.7fr;
+  padding-bottom: 20px;
+}
+
+.grid1Left{
+  padding-top: 30px;
+  padding-left: 100px;
+}
+.right{
+  background-color:#F1D6D6;
+  padding-bottom: 20px;
+}
+
+.s1{
+  margin-left: 50px;
+}
